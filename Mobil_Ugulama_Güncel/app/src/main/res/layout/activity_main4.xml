@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context="com.example.harunbulut.myapplication.Main4Activity">
+
+
+    <Button
+        android:id="@+id/gizem"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebutton"
+        android:text="GİZEM" />
+
+    <Button
+        android:id="@+id/polisiye"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebutton"
+        android:text="polisiye" />
+
+    <Button
+        android:id="@+id/ask"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebutton"
+        android:text="aşk" />
+
+    <Button
+        android:id="@+id/edebiyat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebutton"
+        android:text="edebiyat" />
+
+
+    <Button
+        android:id="@+id/geri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluebutton"
+        android:text="GERİ GEL" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+
+        <ListView
+            android:id="@+id/liste"
+            android:layout_width="306dp"
+            android:layout_height="280dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/liste2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

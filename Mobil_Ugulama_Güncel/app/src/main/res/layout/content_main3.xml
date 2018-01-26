@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harunbulut.myapplication.Main3Activity"
+    tools:showIn="@layout/activity_main3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/rapor"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:gravity="center_horizontal"
+            android:text="RAPORLAR" />
+
+        <TextView
+            android:id="@+id/degerler"
+            android:layout_width="match_parent"
+            android:layout_height="239dp" />
+
+        <Button
+            android:id="@+id/geri"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bluebutton"
+            android:text="GERİ" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
